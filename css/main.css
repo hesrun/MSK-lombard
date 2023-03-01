@@ -427,6 +427,11 @@ body {
   }
 }
 @media screen and (max-width: 1024px) {
+  /* ---------------------------------- modal --------------------------------- */
+  .blocker {
+    -webkit-backdrop-filter: none;
+            backdrop-filter: none;
+  }
   .article h1 {
     font-size: 1.75rem;
     margin-bottom: 1rem;

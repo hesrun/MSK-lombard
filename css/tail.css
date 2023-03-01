@@ -1072,16 +1072,12 @@ video {
   height: 300px;
 }
 
-.h-16 {
-  height: 4rem;
+.h-auto {
+  height: auto;
 }
 
 .h-6 {
   height: 1.5rem;
-}
-
-.h-auto {
-  height: auto;
 }
 
 .min-h-\[200px\] {
@@ -1174,10 +1170,6 @@ video {
 
 .w-40 {
   width: 10rem;
-}
-
-.w-16 {
-  width: 4rem;
 }
 
 .max-w-4xl {
@@ -3394,21 +3386,6 @@ video {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
-.group:hover .group-hover\:invert {
-  --tw-invert: invert(100%);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.peer\/box:checked ~ .peer-checked\/box\:bg-brown {
-  --tw-bg-opacity: 1;
-  background-color: rgb(194 141 63 / var(--tw-bg-opacity));
-}
-
-.peer\/docs:checked ~ .peer-checked\/docs\:bg-brown {
-  --tw-bg-opacity: 1;
-  background-color: rgb(194 141 63 / var(--tw-bg-opacity));
-}
-
 .peer\/brand-1:checked ~ .peer-checked\/brand-1\:text-brown {
   --tw-text-opacity: 1;
   color: rgb(194 141 63 / var(--tw-text-opacity));
@@ -3447,16 +3424,6 @@ video {
 .peer\/dificult:checked ~ .peer-checked\/dificult\:text-brown {
   --tw-text-opacity: 1;
   color: rgb(194 141 63 / var(--tw-text-opacity));
-}
-
-.peer\/box:checked ~ .peer-checked\/box\:text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.peer\/docs:checked ~ .peer-checked\/docs\:text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 @media (min-width: 640px) {
@@ -4178,11 +4145,6 @@ video {
   width: 1.5rem;
 }
 
-.hover\:\[\&\>img\]\:invert>img:hover {
-  --tw-invert: invert(100%);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
 .peer\/box:checked ~ .peer-checked\/box\:\[\&\>img\]\:mr-2>img {
   margin-right: 0.5rem;
 }
@@ -4197,14 +4159,4 @@ video {
 
 .peer\/docs:checked ~ .peer-checked\/docs\:\[\&\>img\]\:w-auto>img {
   width: auto;
-}
-
-.peer\/box:checked ~ .peer-checked\/box\:\[\&\>img\]\:invert>img {
-  --tw-invert: invert(100%);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.peer\/docs:checked ~ .peer-checked\/docs\:\[\&\>img\]\:invert>img {
-  --tw-invert: invert(100%);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
