@@ -22,7 +22,7 @@
                 <img class="main-header__logo_normal w-[150px] md:w-[200px]" src="img/logo/logo-black.svg" alt="">
                 <img class="main-header__logo_mini hidden w-[120px] md:w-[150px]" src="img/logo/logo-horizontal-black.svg" alt="">
             </a>
-            <div class="main-header__tools ml-auto space-x-5">
+            <div class="main-header__tools ml-auto space-x-5 text-xl">
                 <a href="" class="text-white hover:text-brown">
                     <span class="lnr lnr-heart"></span>
                 </a>
@@ -170,43 +170,20 @@
     <section class="container px-8 mx-auto py-8 lg:py-16">
         <h2 class="uppercase text-2xl lg:text-4xl mb-8 lg:mb-12">Новые поступления</h2>
         <p class="lg:w-1/2 mb-8 lg:mb-12">Мы собрали отличную коллекцию новых и Б/У часов для вас по отличным ценам с гарантией аутентичности и полной проверкой нашими экспертами</p>
-        <div class="flex flex-wrap gap-4 mb-4">
-            <a href="" class="flex items-center gap-3 border border-gray-200 font-normal text-sm px-2 py-2 hover:border-brown hover:bg-brown hover:text-white transition">
-                filter name
-                <span class="lnr lnr-cross"></span>
-            </a>
-            <a href="" class="flex items-center gap-3 border border-gray-200 font-normal text-sm px-2 py-2 hover:border-brown hover:bg-brown hover:text-white transition">
-                filter name
-                <span class="lnr lnr-cross"></span>
-            </a>
-            <a href="" class="flex items-center gap-3 border border-gray-200 font-normal text-sm px-2 py-2 hover:border-brown hover:bg-brown hover:text-white transition">
-                filter name
-                <span class="lnr lnr-cross"></span>
-            </a>
-            <a href="" class="flex items-center gap-3 border border-gray-200 font-normal text-sm px-2 py-2 hover:border-brown hover:bg-brown hover:text-white transition">
-                filter name
-                <span class="lnr lnr-cross"></span>
-            </a>
-            <a href="" class="flex items-center gap-3 border border-gray-200 font-normal text-sm px-2 py-2 hover:border-brown hover:bg-brown hover:text-white transition">
-                filter name
-                <span class="lnr lnr-cross"></span>
-            </a>
-            <a href="" class="flex items-center gap-3 border border-gray-200 font-normal text-sm px-2 py-2 hover:border-brown hover:bg-brown hover:text-white transition">
-                filter name
-                <span class="lnr lnr-cross"></span>
-            </a>
-        </div>
         <div class="mb-8">
             <div class="mb-4 lg:flex lg:justify-between">
                 <div class="flex gap-x-4 justify-between lg:gap-x-16">
-                    <a class="flex items-center gap-x-2" href="#" data-filt-link="brands">
-                        БРЕНД <span class="inline-block lnr lnr-chevron-down text-sm"></span>
+                    <a class="flex items-center gap-x-2 font-normal hover:text-brown" href="#" data-filt-link="brands">
+                        Бренд <span class="inline-block lnr lnr-chevron-down text-sm"></span>
                     </a>
-                    <a class="flex items-center gap-x-2" href="#" data-filt-link="functions">
-                        ФУНКЦИИ <span class="inline-block lnr lnr-chevron-down text-sm"></span>
+                    <a class="flex items-center gap-x-2 font-normal hover:text-brown" href="#" data-filt-link="functions">
+                        Функции <span class="inline-block lnr lnr-chevron-down text-sm"></span>
                     </a>
-                    <a class="flex items-center gap-x-2" href="#" data-filt-link="price">
-                        ЦЕНА <span class="inline-block lnr lnr-chevron-down text-sm"></span>
+                    <a class="flex items-center gap-x-2 font-normal hover:text-brown" href="#" data-filt-link="price">
+                        Цена <span class="inline-block lnr lnr-chevron-down text-sm"></span>
+                    </a>
+                    <a class="flex items-center gap-x-2 font-normal hover:text-brown" href="#">
+                        <span class="inline-block lnr lnr-cross text-sm"></span> Сбросить фильтры 
                     </a>
                 </div>
                 <div>
@@ -425,7 +402,7 @@
                     </div>
                     <div class="px-4 lg:px-7">
                         <h3 class="font-normal text-sm lg:text-base">A. Lange & Söhne</h4>
-                        <h5 class="text-sm lg:text-base border-b border-gray-100 py-4">Lange 1, Moonphase, Platinum</h5>
+                        <h5 class="text-sm lg:text-base border-b border-gray-100 py-4 whitespace-nowrap overflow-hidden overflow-ellipsis whitespace-nowrap overflow-hidden overflow-ellipsis">Lange 1, Moonphase, Platinum Lange 1, Moonphase, Platinum</h5>
                         <div class="text-base border-b border-gray-100 min-h-[50px] flex items-center justify-center">
                             <div class="text-sm lg:text-base flex items-center justify-center gap-x-2.5 group-hover:hidden">
                                 <img src="img/icons/diametr.svg" alt="">
@@ -434,8 +411,12 @@
                             <span class="uppercase border border-brown text-brown px-2 hidden group-hover:inline-block">В НАЛИЧИИ</span>
                         </div>
                         <div class="font-normal text-sm lg:text-base min-h-[50px] flex items-center justify-center">
-                            <span class="group-hover:hidden">$44.700</span>
-                            <span class="hidden group-hover:block">₽ 1.352.075</span>
+                            <span class="group-hover:hidden">
+                                <span class="text-red-600 line-through mr-4">$66.700</span> $44.700
+                            </span>
+                            <span class="hidden group-hover:block">
+                                <span class="text-red-600 line-through mr-4">₽1.752.075</span> ₽1.352.075
+                            </span>
                         </div>
                     </div>
                 </a>
@@ -451,7 +432,7 @@
                     </div>
                     <div class="px-4 lg:px-7">
                         <h3 class="font-normal text-sm lg:text-base">A. Lange & Söhne</h4>
-                        <h5 class="text-sm lg:text-base border-b border-gray-100 py-4">Lange 1, Moonphase, Platinum</h5>
+                        <h5 class="text-sm lg:text-base border-b border-gray-100 py-4 whitespace-nowrap overflow-hidden overflow-ellipsis">Lange 1, Moonphase, Platinum</h5>
                         <div class="text-base border-b border-gray-100 min-h-[50px] flex items-center justify-center">
                             <div class="text-sm lg:text-base flex items-center justify-center gap-x-2.5 group-hover:hidden">
                                 <img src="img/icons/diametr.svg" alt="">
@@ -477,7 +458,7 @@
                     </div>
                     <div class="px-4 lg:px-7">
                         <h3 class="font-normal text-sm lg:text-base">A. Lange & Söhne</h4>
-                        <h5 class="text-sm lg:text-base border-b border-gray-100 py-4">Lange 1, Moonphase, Platinum</h5>
+                        <h5 class="text-sm lg:text-base border-b border-gray-100 py-4 whitespace-nowrap overflow-hidden overflow-ellipsis">Lange 1, Moonphase, Platinum</h5>
                         <div class="text-base border-b border-gray-100 min-h-[50px] flex items-center justify-center">
                             <div class="text-sm lg:text-base flex items-center justify-center gap-x-2.5 group-hover:hidden">
                                 <img src="img/icons/diametr.svg" alt="">
@@ -503,7 +484,7 @@
                     </div>
                     <div class="px-4 lg:px-7">
                         <h3 class="font-normal text-sm lg:text-base">A. Lange & Söhne</h4>
-                        <h5 class="text-sm lg:text-base border-b border-gray-100 py-4">Lange 1, Moonphase, Platinum</h5>
+                        <h5 class="text-sm lg:text-base border-b border-gray-100 py-4 whitespace-nowrap overflow-hidden overflow-ellipsis">Lange 1, Moonphase, Platinum</h5>
                         <div class="text-base border-b border-gray-100 min-h-[50px] flex items-center justify-center">
                             <div class="text-sm lg:text-base flex items-center justify-center gap-x-2.5 group-hover:hidden">
                                 <img src="img/icons/diametr.svg" alt="">
@@ -529,7 +510,7 @@
                     </div>
                     <div class="px-4 lg:px-7">
                         <h3 class="font-normal text-sm lg:text-base">A. Lange & Söhne</h4>
-                        <h5 class="text-sm lg:text-base border-b border-gray-100 py-4">Lange 1, Moonphase, Platinum</h5>
+                        <h5 class="text-sm lg:text-base border-b border-gray-100 py-4 whitespace-nowrap overflow-hidden overflow-ellipsis">Lange 1, Moonphase, Platinum</h5>
                         <div class="text-base border-b border-gray-100 min-h-[50px] flex items-center justify-center">
                             <div class="text-sm lg:text-base flex items-center justify-center gap-x-2.5 group-hover:hidden">
                                 <img src="img/icons/diametr.svg" alt="">
@@ -555,7 +536,7 @@
                     </div>
                     <div class="px-4 lg:px-7">
                         <h3 class="font-normal text-sm lg:text-base">A. Lange & Söhne</h4>
-                        <h5 class="text-sm lg:text-base border-b border-gray-100 py-4">Lange 1, Moonphase, Platinum</h5>
+                        <h5 class="text-sm lg:text-base border-b border-gray-100 py-4 whitespace-nowrap overflow-hidden overflow-ellipsis">Lange 1, Moonphase, Platinum</h5>
                         <div class="text-base border-b border-gray-100 min-h-[50px] flex items-center justify-center">
                             <div class="text-sm lg:text-base flex items-center justify-center gap-x-2.5 group-hover:hidden">
                                 <img src="img/icons/diametr.svg" alt="">
@@ -581,7 +562,7 @@
                     </div>
                     <div class="px-4 lg:px-7">
                         <h3 class="font-normal text-sm lg:text-base">A. Lange & Söhne</h4>
-                        <h5 class="text-sm lg:text-base border-b border-gray-100 py-4">Lange 1, Moonphase, Platinum</h5>
+                        <h5 class="text-sm lg:text-base border-b border-gray-100 py-4 whitespace-nowrap overflow-hidden overflow-ellipsis">Lange 1, Moonphase, Platinum</h5>
                         <div class="text-base border-b border-gray-100 min-h-[50px] flex items-center justify-center">
                             <div class="text-sm lg:text-base flex items-center justify-center gap-x-2.5 group-hover:hidden">
                                 <img src="img/icons/diametr.svg" alt="">
@@ -607,7 +588,7 @@
                     </div>
                     <div class="px-4 lg:px-7">
                         <h3 class="font-normal text-sm lg:text-base">A. Lange & Söhne</h4>
-                        <h5 class="text-sm lg:text-base border-b border-gray-100 py-4">Lange 1, Moonphase, Platinum</h5>
+                        <h5 class="text-sm lg:text-base border-b border-gray-100 py-4 whitespace-nowrap overflow-hidden overflow-ellipsis">Lange 1, Moonphase, Platinum</h5>
                         <div class="text-base border-b border-gray-100 min-h-[50px] flex items-center justify-center">
                             <div class="text-sm lg:text-base flex items-center justify-center gap-x-2.5 group-hover:hidden">
                                 <img src="img/icons/diametr.svg" alt="">

@@ -11,7 +11,7 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="bg-white hidden">
+    <div class="bg-white">
         <div class="container px-8 mx-auto flex justify-between gap-x-8 items-center py-4">
             <span class="text-sm">В СВЯЗИ С НЕСТАБИЛЬНЫМ КУРСОМ ВАЛЮТ, ОКОНЧАТЕЛЬНУЮ СТОИМОСТЬ ТОВАРА УТОЧНЯЙТЕ У МЕНЕДЖЕРА</span>
 
@@ -20,7 +20,6 @@
             </a>
         </div>
     </div>
-
     <header class="main-header relative z-30 h-[90px] md:h-[130px]">
         <div class="container px-8 mx-auto flex items-center h-full relative">
             <div id="menuOpen" class="main-header__burger w-10 h-10 mr-auto flex flex-col space-y-2 justify-center cursor-pointer z-20">
@@ -31,10 +30,10 @@
                 <img class="main-header__logo_normal w-[150px] md:w-[200px]" src="img/logo/logo-white.svg" alt="">
                 <img class="main-header__logo_mini hidden w-[120px] md:w-[150px]" src="img/logo/logo-horizontal-black.svg" alt="">
             </a>
-            <div class="main-header__tools ml-auto space-x-5">
+            <div class="main-header__tools ml-auto space-x-5 text-xl">
                 <a href="" class="text-white hover:text-brown relative">
                     <span class="lnr lnr-heart"></span>
-                    <i class="absolute bg-red-600 text-white text-[10px] not-italic px-1 leading-2 rounded-full font-normal -right-1 -top-2">54</i>
+                    <i class="absolute bg-red-600 text-white text-[10px] not-italic px-1 leading-4 rounded-full font-normal -right-1 -top-1">54</i>
                 </a>
                 <a href="" id="searchOpen" class="text-white hover:text-brown">
                     <span class="lnr lnr-magnifier"></span>
@@ -177,7 +176,8 @@
         </div>
     </header>
 
-    <section class="main-banner bg-[url('../img/index/banner.jpg')] bg-cover bg-center mt-[-130px]" >
+    <section class="main-banner bg-cover bg-center mt-[-130px] relative" style="background-image: url('../img/index/banner.jpg')">
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black"></div>
         <div class="container px-8 mx-auto h-[50vh] min-h-[300px] lg:min-h-[400px] flex">
             <ul class="w-3/5 lg:w-[270px] mt-auto mb-8 lg:mb-20">
                 <li class="group relative after:block after:h-[1px] after:bg-brown after:absolute after:bottom-0 after:w-full after:transition-all hover:after:h-[5px]">
@@ -223,7 +223,7 @@
                     </div>
                     <div class="px-4 lg:px-7">
                         <h3 class="font-normal text-sm lg:text-base">A. Lange & Söhne</h4>
-                        <h5 class="text-sm lg:text-base border-b border-gray-100 py-4">Lange 1, Moonphase, Platinum</h5>
+                        <h5 class="text-sm lg:text-base border-b border-gray-100 py-4 whitespace-nowrap overflow-hidden overflow-ellipsis">Lange 1, Moonphase, Platinum</h5>
                         <div class="text-base border-b border-gray-100 min-h-[50px] flex items-center justify-center">
                             <div class="text-sm lg:text-base flex items-center justify-center gap-x-2.5 group-hover:hidden">
                                 <img src="img/icons/diametr.svg" alt="">
@@ -249,7 +249,7 @@
                     </div>
                     <div class="px-4 lg:px-7">
                         <h3 class="font-normal text-sm lg:text-base">A. Lange & Söhne</h4>
-                        <h5 class="text-sm lg:text-base border-b border-gray-100 py-4">Lange 1, Moonphase, Platinum</h5>
+                        <h5 class="text-sm lg:text-base border-b border-gray-100 py-4 whitespace-nowrap overflow-hidden overflow-ellipsis">Lange 1, Moonphase, Platinum</h5>
                         <div class="text-base border-b border-gray-100 min-h-[50px] flex items-center justify-center">
                             <div class="text-sm lg:text-base flex items-center justify-center gap-x-2.5 group-hover:hidden">
                                 <img src="img/icons/diametr.svg" alt="">
@@ -275,7 +275,7 @@
                     </div>
                     <div class="px-4 lg:px-7">
                         <h3 class="font-normal text-sm lg:text-base">A. Lange & Söhne</h4>
-                        <h5 class="text-sm lg:text-base border-b border-gray-100 py-4">Lange 1, Moonphase, Platinum</h5>
+                        <h5 class="text-sm lg:text-base border-b border-gray-100 py-4 whitespace-nowrap overflow-hidden overflow-ellipsis">Lange 1, Moonphase, Platinum</h5>
                         <div class="text-base border-b border-gray-100 min-h-[50px] flex items-center justify-center">
                             <div class="text-sm lg:text-base flex items-center justify-center gap-x-2.5 group-hover:hidden">
                                 <img src="img/icons/diametr.svg" alt="">
@@ -301,7 +301,7 @@
                     </div>
                     <div class="px-4 lg:px-7">
                         <h3 class="font-normal text-sm lg:text-base">A. Lange & Söhne</h4>
-                        <h5 class="text-sm lg:text-base border-b border-gray-100 py-4">Lange 1, Moonphase, Platinum</h5>
+                        <h5 class="text-sm lg:text-base border-b border-gray-100 py-4 whitespace-nowrap overflow-hidden overflow-ellipsis">Lange 1, Moonphase, Platinum</h5>
                         <div class="text-base border-b border-gray-100 min-h-[50px] flex items-center justify-center">
                             <div class="text-sm lg:text-base flex items-center justify-center gap-x-2.5 group-hover:hidden">
                                 <img src="img/icons/diametr.svg" alt="">
@@ -327,7 +327,7 @@
                     </div>
                     <div class="px-4 lg:px-7">
                         <h3 class="font-normal text-sm lg:text-base">A. Lange & Söhne</h4>
-                        <h5 class="text-sm lg:text-base border-b border-gray-100 py-4">Lange 1, Moonphase, Platinum</h5>
+                        <h5 class="text-sm lg:text-base border-b border-gray-100 py-4 whitespace-nowrap overflow-hidden overflow-ellipsis">Lange 1, Moonphase, Platinum</h5>
                         <div class="text-base border-b border-gray-100 min-h-[50px] flex items-center justify-center">
                             <div class="text-sm lg:text-base flex items-center justify-center gap-x-2.5 group-hover:hidden">
                                 <img src="img/icons/diametr.svg" alt="">
@@ -353,7 +353,7 @@
                     </div>
                     <div class="px-4 lg:px-7">
                         <h3 class="font-normal text-sm lg:text-base">A. Lange & Söhne</h4>
-                        <h5 class="text-sm lg:text-base border-b border-gray-100 py-4">Lange 1, Moonphase, Platinum</h5>
+                        <h5 class="text-sm lg:text-base border-b border-gray-100 py-4 whitespace-nowrap overflow-hidden overflow-ellipsis">Lange 1, Moonphase, Platinum</h5>
                         <div class="text-base border-b border-gray-100 min-h-[50px] flex items-center justify-center">
                             <div class="text-sm lg:text-base flex items-center justify-center gap-x-2.5 group-hover:hidden">
                                 <img src="img/icons/diametr.svg" alt="">
@@ -379,7 +379,7 @@
                     </div>
                     <div class="px-4 lg:px-7">
                         <h3 class="font-normal text-sm lg:text-base">A. Lange & Söhne</h4>
-                        <h5 class="text-sm lg:text-base border-b border-gray-100 py-4">Lange 1, Moonphase, Platinum</h5>
+                        <h5 class="text-sm lg:text-base border-b border-gray-100 py-4 whitespace-nowrap overflow-hidden overflow-ellipsis">Lange 1, Moonphase, Platinum</h5>
                         <div class="text-base border-b border-gray-100 min-h-[50px] flex items-center justify-center">
                             <div class="text-sm lg:text-base flex items-center justify-center gap-x-2.5 group-hover:hidden">
                                 <img src="img/icons/diametr.svg" alt="">
@@ -405,7 +405,7 @@
                     </div>
                     <div class="px-4 lg:px-7">
                         <h3 class="font-normal text-sm lg:text-base">A. Lange & Söhne</h4>
-                        <h5 class="text-sm lg:text-base border-b border-gray-100 py-4">Lange 1, Moonphase, Platinum</h5>
+                        <h5 class="text-sm lg:text-base border-b border-gray-100 py-4 whitespace-nowrap overflow-hidden overflow-ellipsis">Lange 1, Moonphase, Platinum</h5>
                         <div class="text-base border-b border-gray-100 min-h-[50px] flex items-center justify-center">
                             <div class="text-sm lg:text-base flex items-center justify-center gap-x-2.5 group-hover:hidden">
                                 <img src="img/icons/diametr.svg" alt="">
