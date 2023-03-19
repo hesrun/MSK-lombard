@@ -44,6 +44,7 @@ body {
 .article a {
   color: #C28D3F;
   text-decoration: underline;
+  font-weight: 400;
 }
 .article a:hover {
   text-decoration: none;
@@ -78,6 +79,10 @@ body {
 }
 .article ol li {
   list-style: decimal;
+}
+.article hr {
+  margin: 3rem 0;
+  border-top-color: #C28D3F;
 }
 
 /* --------------------------------- HEADER --------------------------------- */
@@ -467,5 +472,8 @@ body {
   .article ul, .article ol {
     margin: 1rem 0;
     padding-left: 2.125rem;
+  }
+  .article hr {
+    margin: 2rem 0;
   }
 }/*# sourceMappingURL=main.css.map */

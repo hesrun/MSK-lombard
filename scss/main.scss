@@ -51,6 +51,7 @@ body {
     a {
         color: $brown;
         text-decoration: underline;
+        font-weight: 400;
         &:hover {
             text-decoration: none;
         }
@@ -89,6 +90,10 @@ body {
         li {
             list-style: decimal;
         }
+    }
+    hr {
+        margin: 3rem 0;
+        border-top-color: $brown;
     }
 }
 /* --------------------------------- HEADER --------------------------------- */
@@ -512,6 +517,9 @@ body {
             margin: 1rem 0;
             padding-left: 2.125rem;
 
+        }
+        hr {
+            margin: 2rem 0;
         }
     }
 }
