@@ -1104,6 +1104,10 @@ video {
   height: 1.5rem;
 }
 
+.h-\[30rem\] {
+  height: 30rem;
+}
+
 .min-h-\[200px\] {
   min-height: 200px;
 }
