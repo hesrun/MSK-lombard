@@ -34,6 +34,9 @@ body {
     }
     p {
         margin: 1.5rem 0;
+        &:last-child {
+            margin-bottom: 0;
+        }
     }
     > *:first-child {
         margin-top: 0;
@@ -66,9 +69,12 @@ body {
     }
     ul,ol {
         margin: 1.5rem 0;
-        padding-left: 4rem;
+        padding-left: 2rem;
         li {
             margin: 0.5rem 0;
+        }
+        &:last-child {
+            margin-bottom: 0;
         }
     }
     ul {
@@ -515,7 +521,6 @@ body {
         }
         ul,ol {
             margin: 1rem 0;
-            padding-left: 2.125rem;
 
         }
         hr {

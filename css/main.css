@@ -28,6 +28,9 @@ body {
 .article p {
   margin: 1.5rem 0;
 }
+.article p:last-child {
+  margin-bottom: 0;
+}
 .article > *:first-child {
   margin-top: 0;
 }
@@ -59,10 +62,13 @@ body {
 }
 .article ul, .article ol {
   margin: 1.5rem 0;
-  padding-left: 4rem;
+  padding-left: 2rem;
 }
 .article ul li, .article ol li {
   margin: 0.5rem 0;
+}
+.article ul:last-child, .article ol:last-child {
+  margin-bottom: 0;
 }
 .article ul li {
   position: relative;
@@ -471,7 +477,6 @@ body {
   }
   .article ul, .article ol {
     margin: 1rem 0;
-    padding-left: 2.125rem;
   }
   .article hr {
     margin: 2rem 0;
