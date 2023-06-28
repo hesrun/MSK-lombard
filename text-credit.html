@@ -10,22 +10,32 @@
 <body>
     <header class="main-header main-header_white relative z-30 h-[90px] md:h-[130px]">
         <div class="container px-8 mx-auto flex items-center h-full relative">
-            <div id="menuOpen" class="main-header__burger w-10 h-10 mr-auto flex flex-col space-y-2 justify-center cursor-pointer z-20">
+            <div id="menuOpen" class="main-header__burger w-10 h-10 flex flex-col space-y-2 justify-center cursor-pointer z-20 mr-8">
                 <div class="h-px bg-white transition"></div>
                 <div class="h-px bg-white transition"></div>
             </div>
-            <a href="" class="main-header__logo absolute left-2/4 top-2/4 -translate-y-2/4 -translate-x-2/4">
-                <img class="main-header__logo_normal w-[150px] md:w-[200px]" src="img/logo/logo-black.svg" alt="">
-                <img class="main-header__logo_mini hidden w-[120px] md:w-[150px]" src="img/logo/logo-horizontal-black.svg" alt="">
-            </a>
-            <div class="main-header__tools ml-auto space-x-5 text-xl">
-                <a href="" class="text-white hover:text-brown">
+            <div class="main-header__tools space-x-5 text-xl ml-auto md:mr-auto md:ml-0">
+                <a href="" class="text-white hover:text-brown relative">
                     <span class="lnr lnr-heart"></span>
+                    <i class="absolute bg-red-600 text-white text-[10px] not-italic px-1 leading-4 rounded-full font-normal -right-1 -top-1">54</i>
                 </a>
                 <a href="" id="searchOpen" class="text-white hover:text-brown">
                     <span class="lnr lnr-magnifier"></span>
                 </a>
             </div>
+            <div class="ml-auto space-x-5 hidden md:flex">
+                <a href="" class="hover:scale-110 transition-transform">
+                    <img src="img/icons/whatsapp-small.svg" alt="">
+                </a>
+                <a href="" class="hover:scale-110 transition-transform">
+                    <img src="img/icons/telegtam-small.svg" alt="">
+                </a>
+            </div>
+            <a href="" class="main-header__logo absolute left-2/4 top-2/4 -translate-y-2/4 -translate-x-2/4">
+                <img class="main-header__logo_normal w-[150px] md:w-[200px]" src="img/logo/logo-white.svg" alt="">
+                <img class="main-header__logo_mini hidden w-[120px] md:w-[150px]" src="img/logo/logo-horizontal-black.svg" alt="">
+            </a>
+            
             <a class="main-header__tel text-xl text-white ml-5 hidden lg:block" href="tel:+74994557239">+7 499 455 72 39</a>
         </div>
         <div id="mainNav" class="absolute bg-black w-full z-10 top-0 pt-[90px] lg:pt-[130px] h-screen hidden">
